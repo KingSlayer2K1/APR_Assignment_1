@@ -2,7 +2,6 @@
 
 - This notebook is for people who are looking to buy a place in Bangalore city(INDIA)
 - Created a model that predicts Bangalore house rate to help people to know about the prices of house in various places without the need of contacting different agents for the same. 
-- Deployment using **streamlit** on [Heroku](https://bangalore-house-price.herokuapp.com/).
 - Data was collected from [Kaggle](https://www.kaggle.com/amitabhajoy/bengaluru-house-price-data)
 - Data shape is 13320 rows and 9 columns.
 ---
@@ -34,9 +33,7 @@ Built a function to predict the house price with location, number of Square foot
 
 The prices mentioned are in Lakhs(Indian Currency)
 
-## Deployment
-In this step, I built a **streamlit** API endpoint that was hosted on **Heroku**. The API endpoint takes in a request with a list of values from location, number of Square foot area, Bathroom, and BHK.
-[Web_Page](https://bangalore-house-price.herokuapp.com/)
+
 
 
 
